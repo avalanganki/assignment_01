@@ -2,3 +2,5 @@ Write your reflection here.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from class, and make it actionable.
+
+I learned how to successfully integrate this assignment into VS Code using the container, but had some trouble getting it started. After troubleshooting with Claude, I realized I had deleted files using rm -rf in my Mac terminal, not the container's. Now I know to run commands like that in the correct environment and realize not everything lies locally in my laptop. I also learned about testing for the first time, at first I was hitting the run button at the top of the Testing panel instead of running every test directly, and now I understand the distinction. Unit tests check in isolation, and the integration tests check the full interfaces that use it. Now I am more careful about the environments I am learning about through VS Code. 
